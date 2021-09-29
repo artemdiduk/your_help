@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  @extend %font-400-r;
+  color: #1e0e00;
+}
+
+.container {
+  max-width: 1164px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

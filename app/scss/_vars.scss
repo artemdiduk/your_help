@@ -1,0 +1,40 @@
+%font-400-r {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+%font-500-m {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+%font-300-l {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+%font-700-b {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+%font-assuans-m {
+    font-family: "AssuanNr";
+    font-weight: 800;
+}
+%title {
+    font-family: "AssuanNr";
+    font-weight: 400;
+    color: #f5b537;
+    font-size: 42px;
+    line-height: 54px;
+}
+$green: #3e8e31;
+
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+
+@function max($numbers...) {
+    @return m#{i}n(#{$numbers});
+}
