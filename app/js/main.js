@@ -19,8 +19,8 @@ $('.reviews__inner').slick({
   slidesToScroll: 2,
   arrows: true,
   dots: true,
-  prevArrow: '<button type="button" class="reviews__arrow left"><img src="../images/arrow-left.svg" alt="" class="reviews__arrow-img"></button>',
-  nextArrow: '<button type="button" class="reviews__arrow right"><img src="../images/arrow-right.svg" alt="" class="reviews__arrow-img"></button> ',
+  prevArrow: '<button type="button" class="reviews__arrow left"><img src="./images/arrow-left.svg" alt="" class="reviews__arrow-img"></button>',
+  nextArrow: '<button type="button" class="reviews__arrow right"><img src="./images/arrow-right.svg" alt="" class="reviews__arrow-img"></button> ',
   responsive: [
     {
       breakpoint: 1190,
